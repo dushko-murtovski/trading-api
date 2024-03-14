@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>d5b6945d-94c6-45b1-b187-0631c6e3781a</UserSecretsId>
+    <Configurations>Debug;Release;APIBuildOnly</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Alpaca.Markets" Version="6.0.6" />
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="SendGrid" Version="9.28.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockWolfTrading.Core\StockWolfTrading.Core.csproj" />
+    <ProjectReference Include="..\StockWolfTrading.DataModel\StockWolfTrading.DataModel.csproj" />
+    <ProjectReference Include="..\StockWolfTrading.Services\StockWolfTrading.Services.csproj" />
+    <ProjectReference Include="..\StockwolfTrading.ViewModel\StockwolfTrading.ViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Common\symbols.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

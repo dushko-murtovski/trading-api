@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Configurations>Debug;Release;APIBuildOnly</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockWolfTrading.Core\StockWolfTrading.Core.csproj" />
+    <ProjectReference Include="..\StockWolfTrading.DataModel\StockWolfTrading.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>

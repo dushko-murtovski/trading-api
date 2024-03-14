@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockWolfTradingAPI", "StockWolfTradingAPI\StockWolfTradingAPI.csproj", "{4F99C63C-4F8A-43F5-A485-4CA64015B51D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockWolfTrading.Core", "StockWolfTrading.Core\StockWolfTrading.Core.csproj", "{A0FD6B4E-036F-4F37-B144-DCF7EDABF078}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockwolfTrading.ViewModel", "StockwolfTrading.ViewModel\StockwolfTrading.ViewModel.csproj", "{2F1711C5-FE38-4194-8EF9-3E41CC6CFC1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockWolfTrading.DataModel", "StockWolfTrading.DataModel\StockWolfTrading.DataModel.csproj", "{FD0BCE34-8BAF-47FA-829D-5F852D1A4D74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockWolfTrading.Services", "StockWolfTrading.Services\StockWolfTrading.Services.csproj", "{B444620C-DC7C-44AC-91B1-715E9C836723}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockWolfTrading.RealTime", "StockWolfTrading.RealTime\StockWolfTrading.RealTime.csproj", "{61899AE2-5D3C-440C-823E-57CAFE1D510B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockWolfTrading.Realtime.Test", "StockWolfTrading.Realtime.Test\StockWolfTrading.Realtime.Test.csproj", "{DDF76CC3-0F91-4E26-8E25-70EFCA788F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockWolfTrading.Tests", "StockWolfTrading.Tests\StockWolfTrading.Tests.csproj", "{2394AD8A-23F7-4B6A-A875-B7D822B9298B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		APIBuildOnly|Any CPU = APIBuildOnly|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F99C63C-4F8A-43F5-A485-4CA64015B51D}.APIBuildOnly|Any CPU.ActiveCfg = APIBuildOnly|Any CPU
+		{4F99C63C-4F8A-43F5-A485-4CA64015B51D}.APIBuildOnly|Any CPU.Build.0 = APIBuildOnly|Any CPU
+		{4F99C63C-4F8A-43F5-A485-4CA64015B51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F99C63C-4F8A-43F5-A485-4CA64015B51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F99C63C-4F8A-43F5-A485-4CA64015B51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F99C63C-4F8A-43F5-A485-4CA64015B51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FD6B4E-036F-4F37-B144-DCF7EDABF078}.APIBuildOnly|Any CPU.ActiveCfg = APIBuildOnly|Any CPU
+		{A0FD6B4E-036F-4F37-B144-DCF7EDABF078}.APIBuildOnly|Any CPU.Build.0 = APIBuildOnly|Any CPU
+		{A0FD6B4E-036F-4F37-B144-DCF7EDABF078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FD6B4E-036F-4F37-B144-DCF7EDABF078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FD6B4E-036F-4F37-B144-DCF7EDABF078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FD6B4E-036F-4F37-B144-DCF7EDABF078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1711C5-FE38-4194-8EF9-3E41CC6CFC1B}.APIBuildOnly|Any CPU.ActiveCfg = APIBuildOnly|Any CPU
+		{2F1711C5-FE38-4194-8EF9-3E41CC6CFC1B}.APIBuildOnly|Any CPU.Build.0 = APIBuildOnly|Any CPU
+		{2F1711C5-FE38-4194-8EF9-3E41CC6CFC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1711C5-FE38-4194-8EF9-3E41CC6CFC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1711C5-FE38-4194-8EF9-3E41CC6CFC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1711C5-FE38-4194-8EF9-3E41CC6CFC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0BCE34-8BAF-47FA-829D-5F852D1A4D74}.APIBuildOnly|Any CPU.ActiveCfg = APIBuildOnly|Any CPU
+		{FD0BCE34-8BAF-47FA-829D-5F852D1A4D74}.APIBuildOnly|Any CPU.Build.0 = APIBuildOnly|Any CPU
+		{FD0BCE34-8BAF-47FA-829D-5F852D1A4D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0BCE34-8BAF-47FA-829D-5F852D1A4D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0BCE34-8BAF-47FA-829D-5F852D1A4D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0BCE34-8BAF-47FA-829D-5F852D1A4D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B444620C-DC7C-44AC-91B1-715E9C836723}.APIBuildOnly|Any CPU.ActiveCfg = APIBuildOnly|Any CPU
+		{B444620C-DC7C-44AC-91B1-715E9C836723}.APIBuildOnly|Any CPU.Build.0 = APIBuildOnly|Any CPU
+		{B444620C-DC7C-44AC-91B1-715E9C836723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B444620C-DC7C-44AC-91B1-715E9C836723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B444620C-DC7C-44AC-91B1-715E9C836723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B444620C-DC7C-44AC-91B1-715E9C836723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61899AE2-5D3C-440C-823E-57CAFE1D510B}.APIBuildOnly|Any CPU.ActiveCfg = APIBuildOnly|Any CPU
+		{61899AE2-5D3C-440C-823E-57CAFE1D510B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61899AE2-5D3C-440C-823E-57CAFE1D510B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61899AE2-5D3C-440C-823E-57CAFE1D510B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF76CC3-0F91-4E26-8E25-70EFCA788F4B}.APIBuildOnly|Any CPU.ActiveCfg = APIBuildOnly|Any CPU
+		{DDF76CC3-0F91-4E26-8E25-70EFCA788F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF76CC3-0F91-4E26-8E25-70EFCA788F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF76CC3-0F91-4E26-8E25-70EFCA788F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2394AD8A-23F7-4B6A-A875-B7D822B9298B}.APIBuildOnly|Any CPU.ActiveCfg = APIBuildOnly|Any CPU
+		{2394AD8A-23F7-4B6A-A875-B7D822B9298B}.APIBuildOnly|Any CPU.Build.0 = APIBuildOnly|Any CPU
+		{2394AD8A-23F7-4B6A-A875-B7D822B9298B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2394AD8A-23F7-4B6A-A875-B7D822B9298B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2394AD8A-23F7-4B6A-A875-B7D822B9298B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2394AD8A-23F7-4B6A-A875-B7D822B9298B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEE61108-BC02-4543-9F1D-2CE04AE6A5C4}
+	EndGlobalSection
+EndGlobal
